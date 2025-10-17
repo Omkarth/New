@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ServerSide</string>
+
+    <string name="desc">desc</string>
+    <string name="start">start</string>
+    <string name="servicer_form">servicer_form</string>
+    <string name="first_name">first_name</string>
+    <string name="last_name">last_name</string>
+    <string name="gender">gender</string>
+    <string name="address">address</string>
+    <string name="pincode">pincode</string>
+    <string name="mobile_no">mobile_no</string>
+    <string name="working_hours">working_hours</string>
+    <string name="mai">mai</string>
+    <string name="electricia">electricia</string>
+    <string name="plumbe">plumbe</string>
+    <string name="chef">chef</string>
+    <string name="hire_person">hire_person</string>
+    <string name="action_addperson">action_addperson</string>
+    <string name="action_available">action_available</string>
+    <string name="action_plumber">action_plumber</string>
+    <string name="action_message">action_message</string>
+    <string name="action_electrician">action_electrician</string>
+    <string name="action_chef">action_chef</string>
+</resources>

@@ -1,0 +1,23 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        // Make sure to have Google as a buildscript dependency for the plugin
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        // Keep whatever build tools you have like the
+        // Android Gradle plugin (com.android.tools.build:gradle)
+        classpath 'com.android.tools.build:gradle:8.13.0'
+        classpath "com.google.gms:google-services:4.4.3"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url = "https://jitpack.io"}
+    }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_available"
+        android:title="@string/action_available" />
+    <item
+        android:id="@+id/action_addperson"
+        android:title="@string/action_addperson" />
+    <item
+        android:id="@+id/action_plumber"
+        android:title="@string/action_plumber" />
+    <item
+        android:id="@+id/action_message"
+        android:title="@string/action_message" />
+    <item
+        android:id="@+id/action_electrician"
+        android:title="@string/action_electrician" />
+    <item
+        android:id="@+id/action_chef"
+        android:title="@string/action_chef" />
+</menu>

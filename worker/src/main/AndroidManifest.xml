@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.AppCompat"
+        android:supportsRtl="true">
+        <activity android:name="edu.adelaide.sse_project.workerapp.MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="edu.adelaide.sse_project.clientside.Home_Page" />
+        <activity android:name="edu.adelaide.sse_project.clientside.Login" />
+        <activity android:name="edu.adelaide.sse_project.clientside.MainActivity" />
+        <activity android:name="edu.adelaide.sse_project.clientside.Request_Apply_Chef" />
+        <activity android:name="edu.adelaide.sse_project.clientside.Request_Apply_Electrician" />
+        <activity android:name="edu.adelaide.sse_project.clientside.Request_ApplyPlumber" />
+        <activity android:name="edu.adelaide.sse_project.clientside.Requests_Apply" />
+    </application>
+</manifest>

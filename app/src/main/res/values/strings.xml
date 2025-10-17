@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">ClientSlide2</string>
+<!--    <string name="nav_home">Home</string>-->
+<!--    <string name="nav_profile">Profile</string>-->
+<!--    <string name="nav_work">Work</string>-->
+<!--    <string name="nav_log_out">Log out</string>-->
+<!--    <string name="Temporary">Temporary</string>-->
+<!--    <string name="hire_person">Hire Person</string>-->
+<!--    <string name="chef">Chef</string>-->
+<!--    <string name="plumber">Plumber</string>-->
+<!--    <string name="electrician">electrician</string>-->
+<!--    <string name="maid">maid</string>-->
+<!--    <string name="working_hours">working hours</string>-->
+<!--    <string name="mobile_no">mobile no</string>-->
+<!--    <string name="pincode">PIN Code</string>-->
+<!--    <string name="address">address</string>-->
+<!--    <string name="gender">gender</string>-->
+<!--    <string name="password_hint">password hint</string>-->
+<!--    <string name="email_address_hint">email address hint</string>-->
+<!--    <string name="last_name">last name</string>-->
+<!--    <string name="first_name">first name</string>-->
+
+    <string name="Temporary">Temporary</string>
+    <string name="time">Time</string>
+    <string name="maid">Maid</string>
+    <string name="login_title">Login Title</string>
+    <string name="login_welcome_txt">Login Welcome Txt</string>
+    <string name="email_address_hint">Email Address Hint</string>
+    <string name="password_hint">Password Hint</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login_btn_label">Login Btn Label</string>
+    <string name="divider_or">Divider Or</string>
+    <string name="no_account">No Account</string>
+    <string name="signup_label">Signup Label</string>
+    <string name="Permanent">Permanent</string>
+    <string name="time1">Time1</string>
+    <string name="prompt_email">Prompt Email</string>
+    <string name="rpass">Rpass</string>
+    <string name="gender">Gender</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Select">Select</string>
+    <string name="ApproxWT">Approxwt</string>
+    <string name="t301hour">T301Hour</string>
+    <string name="t12hour">T12Hour</string>
+    <string name="t22hour">T22Hour</string>
+    <string name="_00_00_00"> 00 00 00</string>
+    <string name="SelectTime">Selecttime</string>
+    <string name="prompt_address">Prompt Address</string>
+    <string name="Proceed">Proceed</string>
+    <string name="Plumber">Plumber</string>
+    <string name="signup_title">Signup Title</string>
+    <string name="signup_welcome_txt">Signup Welcome Txt</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="address">Address</string>
+    <string name="pincode">Pincode</string>
+    <string name="signup_btn_label">Signup Btn Label</string>
+    <string name="have_account">Have Account</string>
+    <string name="login_label">Login Label</string>
+    <string name="splash_welcome_txt">Splash Welcome Txt</string>
+    <string name="workerform">Workerform</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="working_hours">Working Hours</string>
+    <string name="electrician">Electrician</string>
+    <string name="plumber">Plumber</string>
+    <string name="chef">Chef</string>
+    <string name="hire_person">Hire Person</string>
+    <string name="nav_home">Nav Home</string>
+    <string name="nav_profile">Nav Profile</string>
+    <string name="nav_work">Nav Work</string>
+    <string name="nav_log_out">Nav Log Out</string>
+
+    <string-array name="Select">
+        <item>Adelaide</item>
+        <item>Melbourne</item>
+        <item>Sydney</item>
+        <item>Hobart</item>
+    </string-array>
+</resources>

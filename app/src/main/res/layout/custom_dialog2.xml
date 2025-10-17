@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/a"
+        android:text="ONE MORE STEP"
+        android:textColor="@color/Black"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We want to just verify that you have selected"
+            android:id="@+id/text_dialog"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:textColor="#ff000000"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingStart="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+
+        android:orientation="vertical">
+
+
+        <RadioGroup
+            android:id="@+id/rg_serviceselect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rb_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Electrician Services" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:text="OK"
+            android:textSize="15dp"
+            android:id="@+id/btn_dialog"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_below="@+id/text_dialog"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:textColor="#ffffffff" />
+
+    </LinearLayout>
+
+</RelativeLayout>

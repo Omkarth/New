@@ -1,0 +1,6 @@
+rootProject.name = "SSEProject"
+include ':app'
+include ':serverside'
+include ':worker'
+include ':fab-speed-dial'
+include ':MarqueeView'

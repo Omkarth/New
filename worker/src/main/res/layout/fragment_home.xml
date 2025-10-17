@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment"
+    android:background="#fff">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_nav">
+
+
+
+        <Button
+            android:layout_marginTop="70dp"
+            android:layout_below="@+id/btnlogout"
+            android:id="@+id/btn_requests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_corners2"
+            android:text="Requests"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_marginTop="200dp"
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Welcome"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:text="Please click on your below button to go online"
+            android:textSize="15sp"
+            android:layout_below="@+id/textView5"/>
+
+        <Switch
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/textView6"
+            android:id="@+id/online"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:buttonTint="@color/colorAccent" />
+
+        <Button
+            android:layout_below="@+id/online"
+            android:id="@+id/btnlogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_corners"
+            android:text="Logout"
+            android:textColor="#fff" />
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/btnlogout"
+            android:background="@drawable/ashokachakra"/>
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1017245277233",
+    "project_id": "sse-project-67343",
+    "storage_bucket": "sse-project-67343.firebasestorage.app",
+    "database_url": "https://sse-project-67343-default-rtdb.firebaseio.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017245277233:android:dce8330d590500fbcf4910",
+        "android_client_info": {
+          "package_name": "edu.adelaide.sse_project.serverside"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUBm3BscAHZqCIiQWDpcLVX3FOZJISC7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
