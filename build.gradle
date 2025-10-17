@@ -7,10 +7,9 @@ buildscript {
     }
 
     dependencies {
-        // Keep whatever build tools you have like the
-        // Android Gradle plugin (com.android.tools.build:gradle)
-        classpath 'com.android.tools.build:gradle:8.13.0'
-        classpath "com.google.gms:google-services:4.4.3"
+        // Android Gradle Plugin compatible with Gradle 9.1
+        classpath 'com.android.tools.build:gradle:8.5.0'
+        classpath "com.google.gms:google-services:4.4.2"
     }
 }
 
